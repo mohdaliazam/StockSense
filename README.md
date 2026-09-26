@@ -12,6 +12,10 @@ StockSense is a highly modular, real-time **Inventory Management System (IMS)** 
 
 ## ✨ Features
 
+- **🤖 StockSense AI Assistant:** A built-in AI chatbot that analyzes inventory levels and predicts stockouts dynamically.
+- **📉 Predictive Analytics:** Intelligent dashboard widgets that calculate depletion velocity and predict the exact date of future stockouts.
+- **📱 QR Code Generation:** Auto-generate printable, scannable QR Code labels for every product in the catalog.
+- **📊 1-Click CSV Export:** Enterprise-ready feature to instantly export the immutable Move History ledger into Excel/CSV.
 - **🔒 Secure Authentication:** Role-based access control (Inventory Managers vs. Warehouse Staff) backed by JWT authentication.
 - **📊 Interactive Dashboard:** Real-time KPIs tracking Total Products, Low Stock Items, Pending Receipts, and Scheduled Transfers.
 - **📦 Product Management:** Seamlessly manage your catalog (SKU, Categories, Unit of Measure).
