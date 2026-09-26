@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "prisma skills sync || exit 0",
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "dev": "npx prisma db push && npx tsc && node dist/seed.js && ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc"
   },
   "keywords": [],

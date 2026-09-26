@@ -56,14 +56,12 @@ cd backend
 npm install
 npm run dev
 ```
-*The backend server will start on `http://localhost:5000`*
+*(Note: Starting the backend will automatically generate the database and seed the admin user!)*
 
-*(Optional) To seed a test user:*
-```bash
-npx tsc
-node dist/seed.js
-```
-*Test Credentials: `admin@stocksense.com` / `password123`*
+### 🔑 Test Credentials
+Use the following credentials to log into the application:
+> **Email:** `admin@stocksense.com`
+> **Password:** `password123`
 
 ### 3. Run the Frontend
 ```bash
